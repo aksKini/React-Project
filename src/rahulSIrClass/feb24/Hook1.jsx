@@ -1,5 +1,6 @@
 import React from 'react'
 import {useState} from "react"
+import { faker } from '@faker-js/faker';
 
 const Hook1 = () => {
 
@@ -11,7 +12,7 @@ const Hook1 = () => {
     <div>
       <h1>{name2}</h1>
       <button onClick={()=>{
-        setName("Virat")
+        setName(faker.internet.email())
       }}>CLICK</button>
     </div>
   )
