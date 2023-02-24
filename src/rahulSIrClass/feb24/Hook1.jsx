@@ -3,13 +3,13 @@ import {useState} from "react"
 
 const Hook1 = () => {
 
-    let[name1,setName]= useState("akshay")
+    let[name2,setName]= useState("akshay")
 
   return (
     
 
     <div>
-      <h1>{name1}</h1>
+      <h1>{name2}</h1>
       <button onClick={()=>{
         setName("Virat")
       }}>CLICK</button>
