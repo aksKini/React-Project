@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
 
-import Auth1 from './rahulSIrClass/feb28/Auth1';
+import Fbc from './rahulSIrClass/mar1/Fbc';
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Auth1 />
+    <Fbc />
 );
