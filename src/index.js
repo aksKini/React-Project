@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
 
-import Fbc from './rahulSIrClass/mar1/Fbc';
+import App from "./rahulSIrClass/mar6/App";
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Fbc />
+    <App />
 );
