@@ -17,8 +17,8 @@ const App = () => {
     <Nav />
     <Routes>
 
-      <Route path="/" element={<Home />}  /> 
-      <Route path="/login" element={<Login />}  /> 
+      <Route path="/" element={<Login />}  /> 
+      {/* <Route path="/login" element={<Login />}  />  */}
       <Route path="/signup" element={<Signup />}  /> 
       <Route path="/menu" element={<Menu />}  /> 
       <Route path="*" element={<PageNotFound />}  /> 
